@@ -1,0 +1,18 @@
+/*Fijando la barra de navegación al tope del documento*/
+
+.navbar {
+    background-color: blueviolet;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+/*Modificando el HeroSection*/
+
+.heroSection {
+    background-image: url("https://www.schecterguitars.com/images/store/product/HELLRAISER%20HYBRID%20TEMPEST%20PG%20LAYING.jpg");
+    height: 450px;
+    margin-top: 56px;
+    color: red;
+}
