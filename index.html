@@ -29,7 +29,7 @@
     <!--Creando barra de navegación-->
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark">
-            <a class="navbar-brand" href="#">PEDRO MANUEL RIVAS DURAN</a>
+            <a class="navbar-brand text-truncate d-inline-block" href="#">PEDRO M RIVAS D</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -57,24 +57,37 @@
     <!--Fin de creación de barra de navegación-->
 
     <!--Creando contenido principal a portafolio-->
-    <section class="heroSection row">
-        <div class="hero col-sm-3 col-sm-offset-4 container w-100">
-            <img class='avatar' src="./assets/img/avatar.jpg" class="containter" width="100" alt="">
+    <section class="heroSection row align-items-center">
+        <div class="col">
+        </div>
+        <div class="text-center col-auto">
+            <img class='avatar' src="./assets/img/avatar.jpg" alt="">
+        </div>
+        <div class="col">
         </div>
     </section>
     <!--Fin de contenido principal de portafolio-->
 
     <!--Creando sección "Acerca de mi"-->
-    <section id="aboutMe" class="aboutMe row">
-        <div class="col-sm-6 align-self-center">
-            <p>
-                acerca de mi texto 1
-            </p>
-        </div>
-        <div class="col-sm-6 align-self-center">
-            <p>
-                acerca d emi texto 2
-            </p>
+    <section id="aboutMe" class="aboutMe container">
+        <div class="row">
+            <div class="col-sm-6">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum ducimus eius doloribus omnis! Eius
+                    necessitatibus, doloribus dolorem, ad eligendi modi rerum sunt numquam reprehenderit itaque nisi
+                    architecto porro doloremque vero?
+                </p>
+            </div>
+            <div class="col-sm-6">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis voluptatibus aliquid deleniti
+                    suscipit aut, repellendus qui, ut harum optio repellat explicabo saepe impedit illo sequi accusamus?
+                    Natus consectetur magni cupiditate. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Debitis voluptatibus aliquid deleniti
+                    suscipit aut, repellendus qui, ut harum optio repellat explicabo saepe impedit illo sequi accusamus?
+                    Natus consectetur magni cupiditate.
+                </p>
+            </div>
         </div>
     </section>
     <!--Fin de sección "Acerca de mi"-->
@@ -88,12 +101,45 @@
     <!--Fin de sección "Experiencias"-->
 
     <!--Creando sección "Trabajos Realizados"-->
-    <section id="trabajosRealizados">
-        <div class="trabajos">
-            <p>Aca van los trabajos Realizados
-            </p>
+    <section id="trabajosRealizados" class="container">
+        <div id="carouselExampleIndicators" class="carousel slide h-100" data-ride="carousel">
+            <ol class="carousel-indicators mb-0">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active bg-dark"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1" class="bg-dark"></li>
+            </ol>
+            <div class="carousel-inner h-100">
+                <div class="carousel-item active h-100">
+                    <!--Primer ciclo de imágenes de carrusel-->
+                    <div class="row align-items-center h-100">
+                        <div class="col-12 col-sm-4">
+                            <img class="d-block w-100 h-100" src="./assets/img/meet-coffee.png" alt="">
+                        </div>
+                        <div class="col-12 col-sm-4">
+                            <img class="d-block w-100 h-100" src="./assets/img/olivia-ros.png" alt=" ">
+                        </div>
+                        <div class="col-12 col-sm-4">
+                            <img class="d-block w-100 h-100" src="./assets/img/cuppon.png" alt="">
+                        </div>
+                    </div>
+                    <!--Cierre de primer ciclo de imágenes de carrusel-->
+                </div>
+                <div class="carousel-item h-100">
+                    <!--Segundo ciclo de imágenes de carrusel-->
+                    <div class="row align-items-center h-100">
+                        <div class="col-12 col-sm-4">
+                            <img class="d-block w-100 h-100" src="./assets/img/ricomida.png" alt="First slide">
+                        </div>
+                        <div class="col-12 col-sm-4">
+                            <img class="d-block w-100 h-100" src="./assets/img/inputs.png" alt="First slide">
+                        </div>
+                        <div class="col-12 col-sm-4">
+                            <img class="d-block w-100 h-100" src="./assets/img/suricata.png" alt="First slide">
+                        </div>
+                    </div>
+                    <!--Cierre de segundo ciclo de imágenes de carrusel-->
+                </div>
+            </div>
         </div>
-
     </section>
     <!--Fin de sección "Trabajos Realizados"-->
 
@@ -102,30 +148,29 @@
         <div class="typeform-widget" data-url="https://form.typeform.com/to/N7Mnq8xT"
             style="width: 100%; height: 500px;"></div>
         <script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })() </script>
-       
+
     </section>
     <!--Fin de sección "Formulario Contacto"-->
 
     <!--Creación del Footer-->
     <section id="footer">
-        <li class="redes">
-            <ul><a href="https://twitter.com/pedromrivasd">
-                    <i class="fab fa-twitter"></i>
-                </a></ul>
-            <ul> <a href="https://github.com/PedroManuelRivas">
-                    <i class="fab fa-github"></i>
-                </a></ul>
-            <ul><a href="https://www.facebook.com/pedromanuelrivas">
-                    <i class="fab fa-facebook"></i>
+        <ul class="redes">
+            <li><a href="https://twitter.com/pedromrivasd">
+                    <i class="fab fa-twitter fa-3x"></i>
+                </a></li>
+            <li> <a href="https://github.com/PedroManuelRivas">
+                    <i class="fab fa-github fa-3x"></i>
+                </a></li>
+            <li><a href="https://www.facebook.com/pedromanuelrivas">
+                    <i class="fab fa-facebook fa-3x"></i>
                 </a>
+            </li>
+            <li><a href="https://www.linkedin.com/in/pedro-manuel-rivas-duran-b96a6a11a/">
+                    <i class="fab fa-linkedin-in fa-3x"></i>
+                </a></li>
             </ul>
-            <ul><a href="https://www.linkedin.com/in/pedro-manuel-rivas-duran-b96a6a11a/">
-                    <i class="fab fa-linkedin-in"></i>
-                </a></ul>
-        </li>
     </section>
     <!--Fin de sección Footer-->
-
 
     <!--Importando JS necesarios para funcionalidad de clases de Bootstrap-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
