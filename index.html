@@ -9,6 +9,11 @@
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!--Fin de importación de Bootsrap-->
 
+    <!--Importación de estilos FontAwesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!--Fin de importación de estilos FontAwesome-->
+
     <!--Importación de JavaScripts-->
     <link rel="JavaScripts" href="./assets/js/index.js">
     <!--Fin de importación de JavaScripts-->
@@ -52,51 +57,75 @@
     <!--Fin de creación de barra de navegación-->
 
     <!--Creando contenido principal a portafolio-->
-    <section class="heroSection">
-        <div>
-            <p>no Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti mollitia ad tempora sequi accusamus
-                facere odit, doloremque commodi voluptas quam corrupti. Numquam repudiandae exercitationem dolor
-                incidunt doloremque fugit, nostrum dolores.
-            </p>
+    <section class="heroSection row">
+        <div class="hero col-sm-3 col-sm-offset-4 container w-100">
+            <img class='avatar' src="./assets/img/avatar.jpg" class="containter" width="100" alt="">
         </div>
     </section>
     <!--Fin de contenido principal de portafolio-->
 
     <!--Creando sección "Acerca de mi"-->
-    <section id="aboutMe" class="aboutMe">
-        <p class="align-self-center">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut ad rem corporis vel repudiandae provident
-            delectus explicabo dolorum odio, sapiente doloremque necessitatibus ab perferendis ipsa veritatis esse,
-            velit quibusdam animi.
-        </p>
+    <section id="aboutMe" class="aboutMe row">
+        <div class="col-sm-6 align-self-center">
+            <p>
+                acerca de mi texto 1
+            </p>
+        </div>
+        <div class="col-sm-6 align-self-center">
+            <p>
+                acerca d emi texto 2
+            </p>
+        </div>
     </section>
     <!--Fin de sección "Acerca de mi"-->
 
     <!--Creando sección "Experiencias"-->
     <section id="misExperiencias">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, eos! Ratione dignissimos aspernatur,
-            repudiandae vel corporis ipsum ex ullam doloremque qui doloribus deserunt, animi exercitationem similique
-            expedita deleniti quia laudantium!
+        <h1>Mis Experiencias</h1>
+        <p>aca van mi sexperiencias
         </p>
     </section>
     <!--Fin de sección "Experiencias"-->
 
     <!--Creando sección "Trabajos Realizados"-->
     <section id="trabajosRealizados">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis labore at, culpa iure dicta consequuntur
-            sequi quisquam delectus debitis nam quia repellat modi expedita! Ea numquam vero repudiandae minus. Atque.
-        </p>
+        <div class="trabajos">
+            <p>Aca van los trabajos Realizados
+            </p>
+        </div>
+
     </section>
     <!--Fin de sección "Trabajos Realizados"-->
 
     <!--Creando sección "Formulario Contacto"-->
     <section id="contactoForm">
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi repudiandae, amet, quis corrupti deserunt
-            tempore dolorem doloremque sit, illo aspernatur placeat nihil velit. Eos sunt aliquam temporibus tempora ad
-            perspiciatis.
-        </p>
+        <div class="typeform-widget" data-url="https://form.typeform.com/to/N7Mnq8xT"
+            style="width: 100%; height: 500px;"></div>
+        <script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })() </script>
+       
     </section>
     <!--Fin de sección "Formulario Contacto"-->
+
+    <!--Creación del Footer-->
+    <section id="footer">
+        <li class="redes">
+            <ul><a href="https://twitter.com/pedromrivasd">
+                    <i class="fab fa-twitter"></i>
+                </a></ul>
+            <ul> <a href="https://github.com/PedroManuelRivas">
+                    <i class="fab fa-github"></i>
+                </a></ul>
+            <ul><a href="https://www.facebook.com/pedromanuelrivas">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </ul>
+            <ul><a href="https://www.linkedin.com/in/pedro-manuel-rivas-duran-b96a6a11a/">
+                    <i class="fab fa-linkedin-in"></i>
+                </a></ul>
+        </li>
+    </section>
+    <!--Fin de sección Footer-->
+
 
     <!--Importando JS necesarios para funcionalidad de clases de Bootstrap-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

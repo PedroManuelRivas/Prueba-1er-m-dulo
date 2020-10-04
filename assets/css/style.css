@@ -1,18 +1,49 @@
 /*Fijando la barra de navegación al tope del documento*/
 
 .navbar {
-    background-color: blueviolet;
+    background-color: grey;
     position: fixed;
     top: 0;
     overflow: hidden;
     width: 100%;
+    z-index: 1;
 }
 
-/*Modificando el HeroSection*/
+/*Estilos para el HeroSection*/
 
 .heroSection {
-    background-image: url("https://www.schecterguitars.com/images/store/product/HELLRAISER%20HYBRID%20TEMPEST%20PG%20LAYING.jpg");
-    height: 450px;
-    margin-top: 56px;
+    background-image: url("/assets/img/hero-section.jpg");
+    background-size: cover;
+    height: 300px;
+    padding-top: 60px;
     color: red;
+}
+
+/*Estilos para avatar*/
+
+.avatar {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 0px auto;
+}
+
+.hero {
+    position: relative;
+    padding-top: 15px;
+}
+
+#misExperiencias {
+    text-align: center;
+}
+
+.trabajos {
+    height: 450 px;
+    background: grey;
+}
+
+/*Aplicando estilos a Twitter*/
+
+.redes {
+    display: inline;
 }
