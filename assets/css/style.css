@@ -8,6 +8,7 @@ header {
     scroll-behavior: smooth;
 }
 
+}
 body {
     font-family: 'Open Sans Condensed', sans-serif;
     }
@@ -35,7 +36,7 @@ a {
 /*Estilos para el HeroSection*/
 
 .heroSection {
-    background-image: url("./assets/img/hero-section.jpg");
+    background-image: url("../img/hero-section.jpg");
     background-size: cover;
     background-position: center center;
     margin-top: 56px;
