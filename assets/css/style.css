@@ -31,7 +31,7 @@ a {
 /*Estilos para el HeroSection*/
 
 .heroSection {
-    background-image: url("/assets/img/hero-section.jpg");
+    background-image: url("./assets/img/hero-section.jpg");
     background-size: cover;
     background-position: center center;
     margin-top: 56px;
@@ -71,4 +71,8 @@ a {
     width: 10px;
     height: 10px;
     border-radius: 50%;
+}
+
+.card {
+    margin-bottom: 10px;
 }
