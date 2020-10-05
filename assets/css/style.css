@@ -9,9 +9,10 @@ header {
 }
 
 }
+
 body {
     font-family: 'Open Sans Condensed', sans-serif;
-    }
+}
 
 a {
     text-decoration: none;
@@ -41,7 +42,6 @@ a {
     background-position: center center;
     margin-top: 56px;
     height: 300px;
-    color: red;
 }
 
 /*Estilos para avatar*/
