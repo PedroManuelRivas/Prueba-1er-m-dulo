@@ -4,9 +4,13 @@ header {
     font-family: 'Secular One', sans-serif;
 }
 
+* {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Open Sans Condensed', sans-serif;
-}
+    }
 
 a {
     text-decoration: none;
