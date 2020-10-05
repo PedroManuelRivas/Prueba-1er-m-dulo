@@ -14,6 +14,11 @@
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <!--Fin de importación de estilos FontAwesome-->
 
+    <!--Importando fuentes-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Secular+One&display=swap"
+        rel="stylesheet">
+    <!--Fin de importación de fuentes-->
+
     <!--Importación de archivo con mis estilos-->
     <link rel="stylesheet" href="./assets/css/style.css">
     <!--Fin de importación de archivo con mis estilos-->
@@ -34,10 +39,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#aboutMe">Sobre Mí <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#sobreMi">Sobre Mí<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#misExperiencias">Experiencias<span
+                        <a class="nav-link" href="#misCapacitaciones">Capacitaciones<span
                                 class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
@@ -71,45 +76,60 @@
     <!--Creando sección "Acerca de mi"-->
     <section id="aboutMe" class="aboutMe d-none d-sm-block">
         <div class="container">
+            <h1 class="text-center" id="sobreMi">Pedro Manuel Rivas Duran</h1>
+            <div class="hr"></div>
             <div class="row">
                 <div class="col-sm-6">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum ducimus eius doloribus omnis!
-                        Eius
-                        necessitatibus, doloribus dolorem, ad eligendi modi rerum sunt numquam reprehenderit itaque nisi
-                        architecto porro doloremque vero?
-                    </p>
+                    <ul>
+                        <li><strong>Fecha de Nacimiento:</strong> 03-10-1987</li>
+                        <li><strong>Lugar de Nacimiento:</strong> Lara - Venezuela</li>
+                        <li><strong>Casa de estudio:</strong> Universidad Nacional Experimental de las Fuerzas Armadas
+                            (UNEFA)</li>
+                        <li><strong>Título obtenido:</strong> Ingeniero de Sistemas</li>
+                        <li><strong>Período de estudio:</strong> 2004-2009</li>
+                    </ul>
                 </div>
                 <div class="col-sm-6">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis voluptatibus aliquid deleniti
-                        suscipit aut, repellendus qui, ut harum optio repellat explicabo saepe impedit illo sequi
-                        accusamus?
-                        Natus consectetur magni cupiditate. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Debitis voluptatibus aliquid deleniti
-                        suscipit aut, repellendus qui, ut harum optio repellat explicabo saepe impedit illo sequi
-                        accusamus?
-                        Natus consectetur magni cupiditate.
+                    <p>Luego de terminar mi carrera universitaria, trabajé como <strong>Agente de telefonía</strong> en
+                        un call center de una empresa prestadora de servicios de telecomunicación. Luego de esta
+                        experiencia, trabajé como Jefe de Informática en un instituto de Contraloría Sanitaria, en el
+                        cual manteníamos en perfecto funcionamiento los equipos informáticos, así como también las
+                        estadísticas de casos especiales reportados en una base de datos <strong>(access)</strong>, en
+                        conjunto con el departamento de Sala Situacional.
                     </p>
+                    <p>En el mes de Marzo del año 2017 decido emigrar a Chile, en donde me desempeñé como conserje en un
+                        edificio residencial durante 6 meses, en donde conocí a un emprendedor que me dió oportunidad
+                        para trabajar en su empresa <a href="https://www.fastersoluciones.cl/"><strong>Faster
+                                Soluciones</strong></a> como ayudante en el departamento de informática. Estando aún
+                        trabajando en la empresa, me postulo por un cupo de una carrera de <strong>Desarrollador
+                            Fullstack</strong> mediante una red social, la cual tuve la dicha de quedar y ser parte del
+                        desafio</p>
+                    <p>Actualmente me encuentro full-time realizando el Desafio Latam, con miras a convertirme en un
+                        excelente desarrollador, capaz de dar solución a cualquier tipo de situaciones y poder ejercer
+                        mi carrera.</p>
                 </div>
             </div>
         </div>
     </section>
     <!--Fin de sección "Acerca de mi"-->
 
-    <!--Creando sección "Experiencias"-->
-    <section id="misExperiencias">
-        <div class="container text-center">
-            <h1>Mis Experiencias</h1>
+    <!--Creando sección "Capacitaciones"-->
+    <section id="misCapacitaciones">
+        <div class="container">
+            <h1 class="text-center">Mis Capacitaciones</h1>
             <div class="hr"></div>
-            <p>aca van mis experiencias
-            </p>
+            <p><strong>IBM Advanced Career Education e-business Aplication Developer Program 2007-2008</p></strong>
+            <ul>
+                <li>IT and Networking Fundamentals </li>
+                <li>Programming Fundamentals </li>
+                <li>Application Develope</li>
+            </ul>
         </div>
     </section>
     <!--Fin de sección "Experiencias"-->
 
     <!--Creando sección "Trabajos Realizados"-->
-    <section id="trabajosRealizados" class="container">
+    <section id="trabajosRealizados" class="container d-none d-sm-block">
         <div id="carouselExampleIndicators" class="carousel slide h-100" data-ride="carousel">
             <ol class="carousel-indicators mb-0 rounded">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active bg-dark"></li>
@@ -122,19 +142,19 @@
                         <div class="col-12 col-sm-4">
                             <a href="https://github.com/PedroManuelRivas/Ricomida"> <img class="d-block w-100 h-100"
                                     src="./assets/img/ricomida.png" alt="" data-toggle="tooltip" data-placement="top"
-                                    title="Click para ir a repositorio de proyecto">
+                                    title="Haga click acá para ir a repositorio de proyecto">
                             </a>
                         </div>
                         <div class="col-12 col-sm-4">
                             <a href="https://github.com/PedroManuelRivas/OliviaRos"> <img class="d-block w-100 h-100"
                                     src="./assets/img/olivia-ros.png" alt=" " data-toggle="tooltip" data-placement="top"
-                                    title="Click para ir a repositorio de proyecto">
+                                    title="Haga click acá para ir a repositorio de proyecto">
                             </a>
                         </div>
                         <div class="col-12 col-sm-4">
-                            <a href=""> <img class="d-block w-100 h-100" src="./assets/img/cuppon.png" alt=""
-                                    data-toggle="tooltip" data-placement="top"
-                                    title="Click para ir a repositorio de proyecto">
+                            <a href="https://github.com/PedroManuelRivas/cuppon"> <img class="d-block w-100 h-100"
+                                    src="./assets/img/cuppon.png" alt="" data-toggle="tooltip" data-placement="top"
+                                    title="Haga click acá para ir a repositorio de proyecto">
                             </a>
                         </div>
                     </div>
@@ -144,19 +164,22 @@
                     <!--Segundo ciclo de imágenes de carrusel-->
                     <div class="row align-items-center h-100">
                         <div class="col-12 col-sm-4">
-                            <img class="d-block w-100 h-100" src="./assets/img/meet-coffee.png" alt="First slide"
-                                data-toggle="tooltip" data-placement="top"
-                                title="Click para ir a repositorio de proyecto">
+                            <a href="https://github.com/PedroManuelRivas/Meet-Coffee"> <img class="d-block w-100 h-100"
+                                    src="./assets/img/meet-coffee.png" alt="First slide" data-toggle="tooltip"
+                                    data-placement="top" title="Haga click acá para ir a repositorio de proyecto">
+                            </a>
                         </div>
                         <div class="col-12 col-sm-4">
-                            <img class="d-block w-100 h-100" src="./assets/img/inputs.png" alt="First slide"
-                                data-toggle="tooltip" data-placement="top"
-                                title="Click para ir a repositorio de proyecto">
+                            <a href="https://github.com/PedroManuelRivas/Inputs"><img class="d-block w-100 h-100"
+                                    src="./assets/img/inputs.png" alt="First slide" data-toggle="tooltip"
+                                    data-placement="top" title="Haga click acá para ir a repositorio de proyecto">
+                            </a>
                         </div>
                         <div class="col-12 col-sm-4">
-                            <img class="d-block w-100 h-100" src="./assets/img/suricata.png" alt="First slide"
-                                data-toggle="tooltip" data-placement="top"
-                                title="Click para ir a repositorio de proyecto">
+                            <a href="https://github.com/PedroManuelRivas/Suricata"><img class="d-block w-100 h-100"
+                                    src="./assets/img/suricata.png" alt="First slide" data-toggle="tooltip"
+                                    data-placement="top" title="Haga click acá para ir a repositorio de proyecto">
+                            </a>
                         </div>
                     </div>
                     <!--Cierre de segundo ciclo de imágenes de carrusel-->
@@ -165,6 +188,92 @@
         </div>
     </section>
     <!--Fin de sección "Trabajos Realizados"-->
+
+    <!--Creando sección "Trabajos Realizados" para mobile en cards(estas van ocultas en vista escritorio)-->
+    <div class="container d-block d-sm-none">
+        <div class="row">
+            <!--Primera tarjeta-->
+            <div class="col-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/img/ricomida.png" class="card-img-top" alt="Imagen de proyecto RICOMIDA">
+                    <div class="card-body">
+                        <h5 class="card-title">Desafio Ricomida</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="https://github.com/PedroManuelRivas/Ricomida" class="btn btn-primary">Ir a
+                            repositorio</a>
+                    </div>
+                </div>
+            </div>
+            <!--Segunda tarjeta-->
+            <div class="col-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/img/olivia-ros.png" class="card-img-top" alt="Imagen de proyecto olivia-ros">
+                    <div class="card-body">
+                        <h5 class="card-title">Desafio Olivia-Ros</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="https://github.com/PedroManuelRivas/OliviaRos" class="btn btn-primary">Ir a
+                            repositorio</a>
+                    </div>
+                </div>
+            </div>
+            <!--Tercera tarjeta-->
+            <div class="col-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/img/cuppon.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Desafio Cuppon</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="https://github.com/PedroManuelRivas/cuppon" class="btn btn-primary">Ir a
+                            repositorio</a>
+                    </div>
+                </div>
+            </div>
+            <!--Cuarta tarjeta-->
+            <div class="col-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/img/meet-coffee.png" class="card-img-top" alt="Imagen proyecto Meet-Coffee">
+                    <div class="card-body">
+                        <h5 class="card-title">Desafio Meet and Coffee</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="https://github.com/PedroManuelRivas/Meet-Coffee" class="btn btn-primary">Ir a
+                            repositorio</a>
+                    </div>
+                </div>
+            </div>
+            <!--Quinta tarjeta-->
+            <div class="col-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/img/inputs.png" class="card-img-top"
+                        alt="Imagen de proyecto inputs (contingencia)">
+                    <div class="card-body">
+                        <h5 class="card-title">Desafio de contingencia (Inputs)</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="https://github.com/PedroManuelRivas/Inputs" class="btn btn-primary">Ir a
+                            repositorio</a>
+                    </div>
+                </div>
+            </div>
+            <!--Sexta tarjeta-->
+            <div class="col-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/img/avatar.png" class="card-img-top" alt="Imagen de proyecto Suricata">
+                    <div class="card-body">
+                        <h5 class="card-title">Desafio Suricata</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="https://github.com/PedroManuelRivas/Suricata" class="btn btn-primary">Ir a
+                            repositorio</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Fin de sección "Trabajos Realizados" para mobile (cards)-->
 
     <!--Creando sección "Formulario Contacto"-->
     <section id="contactoForm">

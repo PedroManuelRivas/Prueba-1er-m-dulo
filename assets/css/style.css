@@ -1,15 +1,24 @@
 /*Fijando la barra de navegación al tope del documento*/
 
+header {
+    font-family: 'Secular One', sans-serif;
+}
+
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
 a {
     text-decoration: none;
     color: inherit;
 }
 
 .hr {
-    
     border-top: 2px grey solid;
     width: 100%;
-   }
+    margin-bottom: 10px;
+}
+
 .navbar {
     background-color: grey;
     position: fixed;
@@ -36,10 +45,6 @@ a {
     border-radius: 50%;
     width: 200px;
     height: 200px;
-}
-
-#misExperiencias {
-    text-align: center;
 }
 
 #trabajosRealizados {
